@@ -4,4 +4,4 @@ jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
-      - run: printf '[this is a link](http://example.com)'
+      - run: printf '<a href="http://example.com">This is a link</a>'
